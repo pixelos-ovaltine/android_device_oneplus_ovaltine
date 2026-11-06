@@ -1,5 +1,13 @@
 # Bluetooth
-bluetooth.device.default_name=OnePlus 10 Pro 5G
+bluetooth.device.default_name=OnePlus 10T 5G
+
+# Graphics
+ro.surface_flinger.set_idle_timer_ms=4000
+ro.surface_flinger.set_touch_timer_ms=4000
 
 # USB
-vendor.usb.product_string=OnePlus 10 Pro 5G
+vendor.usb.product_string=OnePlus 10T 5G
+
+# Display: skip the ABI-mismatched blob color manager (display_base.cpp SHIM).
+# Without this composer-service SIGSEGVs in StcOrderParserImpl::Init and boot hangs.
+vendor.display.skip_color_manager=false

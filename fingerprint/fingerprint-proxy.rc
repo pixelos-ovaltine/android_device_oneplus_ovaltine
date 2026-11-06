@@ -1,0 +1,4 @@
+service fps_proxy_hal /vendor/bin/android.hardware.biometrics.fingerprint-service.proxy
+    class late_start
+    user system
+    group system input uhid

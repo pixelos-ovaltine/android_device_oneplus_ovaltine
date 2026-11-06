@@ -40,4 +40,3 @@
     <device name="SLIM-DEV1-TX-0" rate="48000" ch="1" bits="16" />
     <device name="USB_AUDIO-TX" rate="48000" ch="1" bits="16" />
 </config>
-
